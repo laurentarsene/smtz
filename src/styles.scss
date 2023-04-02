@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+@import "/home/maurgwenn/Documents/supertz/supertz/node_modules/@ngneat/hot-toast/src/styles/styles.scss";
+* {
+  font-family: 'Mukta', sans-serif;
+  // font-family: 'Cute Font', cursive;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  background-color: rgb(236, 236, 236);
+  
+}
+a {
+  text-decoration: none;
+}

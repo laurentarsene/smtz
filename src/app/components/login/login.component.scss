@@ -1,0 +1,25 @@
+.form-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto; //center horizontally of the page
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+    gap: 1.5rem;
+}
+
+mat-form-field {
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-up-link {
+    margin-left: 8px;
+    color: black;
+    &:hover {
+        color:rgb(65, 62, 221);
+    }
+}
